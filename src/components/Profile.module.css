@@ -1,0 +1,12 @@
+.content {
+    grid-area: c ;
+    /* background-color:cadetblue; */
+    margin-top: 70px;
+    
+}
+    
+.content img {
+    width: 1300px;
+    height: 400px;
+    margin-left: 50px;
+}

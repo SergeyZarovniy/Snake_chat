@@ -1,0 +1,19 @@
+.header {
+    grid-area: h ;
+    background-color:#0D2620;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.logoName{
+    color: cornsilk;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+.header img{
+    width: 100px;   
+}
