@@ -1,0 +1,38 @@
+.myPosts {
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+.postHeader {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.newPost {
+margin-top: 20px;
+display: flex;
+
+}
+
+input{
+    width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+button {
+    margin-left: 20px;
+    border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 26px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: blanchedalmond;
+}

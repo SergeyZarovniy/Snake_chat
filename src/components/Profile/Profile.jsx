@@ -1,5 +1,6 @@
 import React from "react";
 import s from'./Profile.module.css';
+import MyPosts from './MyPosts/MyPost';
 
 const Profile = () => {
   return (
@@ -8,12 +9,8 @@ const Profile = () => {
         <img src="https://www.rentcafe.com/blog/wp-content/uploads/sites/5/2020/06/minimalism-save-money-featured.png"></img>
       </div>
       <div>ava + description</div>
-      <div>
-        My posts
-        <div>New post</div>
-      </div>
-      <div>post 1</div>
-      <div>post 2</div>
+      <MyPosts/>
+      
     </div>
   );
 };
