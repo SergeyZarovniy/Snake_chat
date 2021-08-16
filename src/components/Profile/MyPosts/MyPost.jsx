@@ -6,13 +6,15 @@ const MyPosts = () => {
   return (
     <div className={s.myPosts}>
       <span className={s.postHeader}>My posts...</span>
-      
+
       <div className={s.newPost}>
          <input></input>
          <button>Add new post</button>
       </div>
 
-      <Post/>
+      <Post message = "Working on new React project"/>
+      <Post message = "How are you,buddy?"/>
+      <Post message = "Now i am traveling"/>
         
     </div>
   );
