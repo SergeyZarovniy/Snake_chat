@@ -10,7 +10,10 @@
     "n c ";
 }
 
-
+.app-wrapper-content {
+        grid-area: c ;
+        margin-top: 70px; 
+}
 
 
 
