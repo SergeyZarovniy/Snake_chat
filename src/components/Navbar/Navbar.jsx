@@ -5,23 +5,23 @@ const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div>
-        <a> My Profile</a>
+        <a href='/profile'> My Profile</a>
       </div>
 
       <div>
-        <a> Messages </a>
+        <a href='/messages'> Messages </a>
       </div>
 
       <div>
-        <a> News </a>
+        <a href='/news'> News </a>
       </div>
 
       <div>
-        <a> Music </a>
+        <a href='/music'> Music </a>
       </div>
 
       <div>
-        <a> Settings </a>
+        <a href='/settings'> Settings </a>
       </div>
     </nav>
   );
