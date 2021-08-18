@@ -2,16 +2,19 @@
     color: brown;
     display: grid;
     grid-template-columns: 4fr 8fr;
-    background-color: #0D2620;   
+   
 }
 
 .userName  {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    color: cornsilk;
+    color: #0D2620;
     padding: 16px;
     display: flex;
     align-items: center; 
+    border: 1px solid #0D2620;
+    margin: 5px;
+    text-align: center;
     
 }
 
@@ -22,9 +25,16 @@ p {
 .userDialog {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    color: #fff8dc;
-    padding: 38px;
-    margin-top: 4px; 
+    color: #0D2620;
+    
+    align-items: center;
+    
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid #0D2620;
+    width: 50%;
+    border-radius: 2%;
+    text-align: center;
     
     
 }
@@ -36,8 +46,8 @@ border-radius: 50%;
 }
 
 .userArea{
-    border: 2px solid whitesmoke;
+    border: 2px solid #0D2620;
 }
 .dialogArea{
-    border: 2px solid whitesmoke; 
+    border: 2px solid #0D2620; 
 }
