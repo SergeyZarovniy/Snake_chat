@@ -6,6 +6,7 @@
 .postHeader {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
 .newPost {

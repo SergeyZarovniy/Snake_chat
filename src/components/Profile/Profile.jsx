@@ -8,7 +8,8 @@ const Profile = () => {
       <div>
         <img src="https://www.rentcafe.com/blog/wp-content/uploads/sites/5/2020/06/minimalism-save-money-featured.png"></img>
       </div>
-      <div>ava + description</div>
+      <div className={s.person}> ava + description 
+      </div>
       <MyPosts/>
       
     </div>

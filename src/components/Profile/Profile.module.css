@@ -1,7 +1,10 @@
-
-    
+ 
 .content img {
     width: 1300px;
     height: 400px;
     margin-left: 50px;
+}
+.person {
+        margin-top: 70px; 
+        margin-left: 50px;
 }

@@ -5,7 +5,8 @@ import Post from "./Post/Post";
 const MyPosts = () => {
   return (
     <div className={s.myPosts}>
-      <span className={s.postHeader}>My posts...</span>
+      <span className={s.postHeader}>My posts...✉</span>
+      
 
       <div className={s.newPost}>
          <input></input>
