@@ -16,7 +16,7 @@
     border-radius: 15px;
     width: 300px;
     margin: 5px;
-   cursor: pointer;  
+    cursor: pointer;  
 }
 .userName:hover {
 background-color: #0D2620 ;
@@ -33,12 +33,12 @@ p {
     color: #0D2620; 
     align-items: center;
     text-align: center;
-    padding: 16px;
+    padding: 9px;
     border: 1px solid #0D2620;
     border-radius: 15px;
     width: 600px;
     margin: 5px;
-   cursor: pointer
+    cursor: pointer
        
 }
 
@@ -48,3 +48,11 @@ height: 65px;
 border-radius: 50%;
 }
 
+.links {
+    color: #0D2620;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.links:hover{
+    color: cornsilk;
+}

@@ -6,23 +6,23 @@ const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div>
-        <NavLink to ='/profile' activeClassName={s.active}> My Profile</NavLink>
+        <NavLink className={s.navbarLink} to ='/profile' activeClassName={s.active}> My Profile</NavLink>
       </div>
 
       <div>
-        <NavLink to ='/messages' activeClassName={s.active}> Messages </NavLink>
+        <NavLink className={s.navbarLink} to ='/messages' activeClassName={s.active}> Messages </NavLink>
       </div>
 
       <div>
-        <a href='/news'> News </a>
+      <NavLink className={s.navbarLink} to ='/news' activeClassName={s.active}> News </NavLink>
       </div>
 
       <div>
-        <a href='/music'> Music </a>
+      <NavLink className={s.navbarLink} to ='/music' activeClassName={s.active}> Music </NavLink>
       </div>
 
       <div>
-        <a href='/settings'> Settings </a>
+      <NavLink className={s.navbarLink} to ='/settings' activeClassName={s.active}> Settings </NavLink>
       </div>
     </nav>
   );

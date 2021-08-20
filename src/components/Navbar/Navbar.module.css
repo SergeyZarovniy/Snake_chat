@@ -12,7 +12,7 @@
     padding-top: 20px;
 }
 
-a {
+.navbarLink {
     text-decoration: none;
     color: cornsilk;
     cursor: pointer;
