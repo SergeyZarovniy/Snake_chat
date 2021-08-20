@@ -4,5 +4,7 @@
     font-family: 'Courier New', Courier, monospace;
     background-color: #0D2620;
     color: cornsilk;
-    width: 400px;
+    width: 500px;
+    padding-left: 15px;
+    border-radius: 25px;
 }
