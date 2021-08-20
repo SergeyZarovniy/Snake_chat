@@ -13,9 +13,14 @@
     display: flex;
     align-items: center; 
     border: 1px solid #0D2620;
+    border-radius: 15px;
+    width: 300px;
     margin: 5px;
-    text-align: center;
-    
+   cursor: pointer;  
+}
+.userName:hover {
+background-color: #0D2620 ;
+color: cornsilk;
 }
 
 p {
@@ -25,29 +30,21 @@ p {
 .userDialog {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    color: #0D2620;
-    
+    color: #0D2620; 
     align-items: center;
-    
-    margin: 25px;
-    padding: 25px;
-    border: 1px solid #0D2620;
-    width: 50%;
-    border-radius: 2%;
     text-align: center;
-    
-    
+    padding: 16px;
+    border: 1px solid #0D2620;
+    border-radius: 15px;
+    width: 600px;
+    margin: 5px;
+   cursor: pointer
+       
 }
 
 .userImg {
-width: 50px;
-height: 50px;
+width: 65px;
+height: 65px;
 border-radius: 50%;
 }
 
-.userArea{
-    border: 2px solid #0D2620;
-}
-.dialogArea{
-    border: 2px solid #0D2620; 
-}
