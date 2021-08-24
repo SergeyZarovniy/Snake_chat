@@ -20,11 +20,15 @@ const MessageItem = (props) => {
   )
 };
 
+let dialogData = [
+  { id:1, name: 'Yana Zarovna' }
+]
+
 const Dialogs = () => {
   return (
     <div className={s.dialogs}>
       <div className={s.userArea}>
-        <DialogItem id='1' name="Yana Zarovna"/>
+        <DialogItem name = {dialogData[0].name} id = {dialogData[0].id}/>
         <DialogItem id='2' name="Ivan Scripnik"/>
         <DialogItem id='3' name="Yarek Brokh"/>
         <DialogItem id='4' name="Volodia Perun"/>
