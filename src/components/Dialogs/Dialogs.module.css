@@ -33,14 +33,13 @@ p {
     color: #0D2620; 
     align-items: center;
     text-align: center;
-    padding: 9px;
-    border: 1px solid #0D2620;
+     padding: 9px;
+     border: 1px solid #0D2620;
     border-radius: 15px;
-    width: 600px;
-    margin: 5px;
-    cursor: pointer
-       
-}
+     width: 600px;
+     margin: 5px;
+    cursor: pointer ;    
+ }
 
 .userImg {
 width: 65px;

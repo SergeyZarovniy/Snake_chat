@@ -4,54 +4,37 @@ import { NavLink } from 'react-router-dom';
 
 
 const DialogItem = (props) => {
+   let patch = "/messages/" + props.id;
   return (
 <div className={s.userName}>
-          {props.img}
-          <NavLink className={s.links} to = '/messages/1'>{props.name}</NavLink>
+          <NavLink className={s.links} to={patch}> {props.name} </NavLink>
         </div>
   )
-}
+};
+
+const MessageItem = (props) => {
+  return (
+<div className={s.userDialog}>
+          <p>{props.message}</p>
+          </div>
+  )
+};
 
 const Dialogs = () => {
   return (
     <div className={s.dialogs}>
       <div className={s.userArea}>
-        <DialogItem name="Yana Zarovna"/>
-        <div className={s.userName}>
-          <img
-            className={s.userImg}
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKthUA_f96Sfnj-fC11kFqKlA--YPfob8WxY7GIfJgPpdKU_DGmE0UY5D7nTM3SoFkkyI&usqp=CAU"
-          />
-          <NavLink className={s.links} to = '/messages/2'>Ivan Skripnik</NavLink>
-        </div>
-        <div className={s.userName}>
-          <img
-            className={s.userImg}
-            src="https://sun9-70.userapi.com/impf/c540109/v540109259/22289/eUaPpdHeu0Q.jpg?size=604x403&quality=96&sign=6965237605d00eef96cc664126078877&type=album"
-          />
-          <NavLink className={s.links} to = '/messages/3'>Yarek Brokh</NavLink>
-        </div>
-        <div className={s.userName}>
-          <img
-            className={s.userImg}
-            src="https://ocdn.eu/zapytaj/MDA_/24db229eccea5628f8c873ddda60a753.jpg"
-          />
-          <NavLink className={s.links} to = '/messages/4'>Volodia Perun</NavLink>
-        </div>
+        <DialogItem id='1' name="Yana Zarovna"/>
+        <DialogItem id='2' name="Ivan Scripnik"/>
+        <DialogItem id='3' name="Yarek Brokh"/>
+        <DialogItem id='4' name="Volodia Perun"/>
       </div>
+
       <div className={s.dialogArea}>
-        <div className={s.userDialog}>
-          <p> Love you,babe </p>
-          </div>
-        <div className={s.userDialog}>
-          <p>Whats up,bro?</p>
-          </div>
-        <div className={s.userDialog}>
-          <p>Sho tam po arende???</p>
-          </div>
-        <div className={s.userDialog}>
-          <p>How is your React lessons going?</p>
-          </div>
+        <MessageItem message = "Love you,babe"/>
+        <MessageItem message = "Whats up,bro?"/>
+        <MessageItem message = "Sho tam po arende???"/>
+        <MessageItem message = "How is your React lessons going?"/>
       </div>
     </div>
   );
