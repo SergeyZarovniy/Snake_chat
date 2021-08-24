@@ -2,17 +2,21 @@ import React from "react";
 import s from "./Dialogs.module.css";
 import { NavLink } from 'react-router-dom';
 
+
+const DialogItem = (props) => {
+  return (
+<div className={s.userName}>
+          {props.img}
+          <NavLink className={s.links} to = '/messages/1'>{props.name}</NavLink>
+        </div>
+  )
+}
+
 const Dialogs = () => {
   return (
     <div className={s.dialogs}>
       <div className={s.userArea}>
-        <div className={s.userName}>
-          <img
-            className={s.userImg}
-            src="https://img-ovh-cloud.szafa.pl/ubrania/0/020482822/1411590858.jpg"
-          />
-          <NavLink className={s.links} to = '/messages/1'>Yana Zarovna</NavLink>
-        </div>
+        <DialogItem name="Yana Zarovna"/>
         <div className={s.userName}>
           <img
             className={s.userImg}
