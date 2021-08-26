@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
+let dialogs = [
+  { id: 1, name: "Yana Zarovna" },
+  { id: 2, name: "Ivan Skripnik" },
+  { id: 3, name: "Yarek Brokh" },
+  { id: 4, name: "Volodia Perun" },
+];
 
 ReactDOM.render(
   <React.StrictMode>
