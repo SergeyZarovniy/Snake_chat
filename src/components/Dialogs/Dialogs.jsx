@@ -37,19 +37,19 @@ let messageData = [
 const Dialogs = () => {
   return (
     <div className={s.dialogs}>
-      <div className={s.userArea}>
-        <DialogItem name = {dialogData[0].name} id = {dialogData[0].id}/>
-        <DialogItem name = {dialogData[1].name} id = {dialogData[1].id}/>
-        <DialogItem name = {dialogData[2].name} id = {dialogData[2].id}/>
-        <DialogItem name = {dialogData[3].name} id = {dialogData[3].id}/>
-      </div>
+    {/* //   <div className={s.userArea}>
+    //     <DialogItem name = {dialogData[0].name} id = {dialogData[0].id}/>
+    //     <DialogItem name = {dialogData[1].name} id = {dialogData[1].id}/>
+    //     <DialogItem name = {dialogData[2].name} id = {dialogData[2].id}/>
+    //     <DialogItem name = {dialogData[3].name} id = {dialogData[3].id}/>
+    //   </div> */}
 
-      <div className={s.dialogArea}>
+      {/* <div className={s.dialogArea}>
         <MessageItem message = {messageData[0].message}/>
         <MessageItem message = {messageData[1].message}/>
         <MessageItem message = {messageData[2].message}/>
         <MessageItem message = {messageData[3].message}/>
-      </div>
+      </div> */}
     </div>
   );
 };
